@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Clay and sage",
+	"settings": {
+		"color": {
+			"palette": [
+				{ "slug": "base", "name": "Cream", "color": "#faf4ec" },
+				{ "slug": "surface", "name": "Sand", "color": "#f0e2d0" },
+				{ "slug": "sage", "name": "Sage", "color": "#dbe0cf" },
+				{ "slug": "contrast", "name": "Ink", "color": "#2a1f1a" },
+				{ "slug": "muted", "name": "Bark", "color": "#5a4a40" },
+				{ "slug": "primary", "name": "Clay", "color": "#8f3d1f" },
+				{ "slug": "primary-dark", "name": "Deep clay", "color": "#5e2712" },
+				{ "slug": "accent", "name": "Fern", "color": "#2f5039" }
+			]
+		}
+	}
+}

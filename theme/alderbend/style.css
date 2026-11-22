@@ -1,0 +1,17 @@
+/*
+Theme Name: Alderbend
+Theme URI: https://alexmercerprojects.com/alderbend-wordpress-theme/
+Author: Alex Mercer
+Author URI: https://alexmercerprojects.com/
+Description: A from-scratch block theme for a small landscaping business. Concept demo for a made-up company (Alderbend Landscape Co.); not client work. Full site editing, theme.json design tokens, block patterns, two small dynamic blocks and no page builder.
+Requires at least: 6.5
+Tested up to: 7.1
+Requires PHP: 7.4
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: alderbend
+Tags: block-patterns, full-site-editing, one-column, wide-blocks, custom-colors, editor-style, translation-ready, style-variations
+*/
+
+/* Most styling lives in theme.json. This file holds only what theme.json cannot express. */
