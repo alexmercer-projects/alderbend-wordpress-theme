@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <div class="wp-block-group alignfull ab-header"><!-- wp:group {"align":"wide","className":"ab-header__inner","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
 <div class="wp-block-group alignwide ab-header__inner"><!-- wp:site-title {"level":0,"className":"ab-brand"} /-->
 
-<!-- wp:navigation {"overlayMenu":"mobile","layout":{"type":"flex","justifyContent":"center"},"className":"ab-nav"} -->
+<!-- wp:navigation {"overlayMenu":"mobile","overlayBackgroundColor":"primary-dark","overlayTextColor":"base","layout":{"type":"flex","justifyContent":"center"},"className":"ab-nav"} -->
 <!-- wp:navigation-link {"label":"<?php echo esc_attr_x( 'Services', 'menu item', 'alderbend' ); ?>","type":"page","url":"<?php echo esc_url( home_url( '/services/' ) ); ?>","kind":"custom","isTopLevelLink":true} /-->
 <!-- wp:navigation-link {"label":"<?php echo esc_attr_x( 'Projects', 'menu item', 'alderbend' ); ?>","type":"page","url":"<?php echo esc_url( home_url( '/projects/' ) ); ?>","kind":"custom","isTopLevelLink":true} /-->
 <!-- wp:navigation-link {"label":"<?php echo esc_attr_x( 'About', 'menu item', 'alderbend' ); ?>","type":"page","url":"<?php echo esc_url( home_url( '/about/' ) ); ?>","kind":"custom","isTopLevelLink":true} /-->
