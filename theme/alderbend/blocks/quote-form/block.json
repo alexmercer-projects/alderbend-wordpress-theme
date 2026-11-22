@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "alderbend/quote-form",
+	"version": "1.0.0",
+	"title": "Quote request form",
+	"category": "widgets",
+	"icon": "email",
+	"description": "A plain request-a-quote form that posts to WordPress, checks a nonce, validates every field and emails the site owner.",
+	"textdomain": "alderbend",
+	"attributes": {
+		"services": {
+			"type": "array",
+			"items": { "type": "string" },
+			"default": [ "Garden design", "Patios and paths", "Retaining walls", "Planting and beds", "Drainage and rain gardens", "Seasonal upkeep", "Not sure yet" ]
+		},
+		"submitLabel": { "type": "string", "default": "Send my request" }
+	},
+	"supports": { "html": false, "align": [ "wide" ], "spacing": { "margin": true } },
+	"editorScript": "file:./editor.js",
+	"render": "file:./render.php"
+}

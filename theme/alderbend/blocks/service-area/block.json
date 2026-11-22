@@ -1,0 +1,28 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "alderbend/service-area",
+	"version": "1.0.0",
+	"title": "Service area checker",
+	"category": "widgets",
+	"icon": "location-alt",
+	"description": "Lists the towns you serve with their route day, and lets a visitor type their town to check.",
+	"textdomain": "alderbend",
+	"attributes": {
+		"towns": {
+			"type": "array",
+			"default": [
+				{ "name": "Millbrook Ridge", "day": "Monday" },
+				{ "name": "Harrow Landing", "day": "Tuesday" },
+				{ "name": "Ketterby", "day": "Wednesday" },
+				{ "name": "Pinecrest Falls", "day": "Thursday" },
+				{ "name": "Oriel Heights", "day": "Friday" },
+				{ "name": "Sandy Ford", "day": "Saturday" }
+			]
+		}
+	},
+	"supports": { "html": false, "align": [ "wide", "full" ], "spacing": { "margin": true } },
+	"editorScript": "file:./editor.js",
+	"viewScript": "file:./view.js",
+	"render": "file:./render.php"
+}
