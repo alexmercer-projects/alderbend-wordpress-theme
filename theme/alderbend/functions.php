@@ -43,6 +43,18 @@ function alderbend_enqueue_assets() {
 add_action( 'wp_enqueue_scripts', 'alderbend_enqueue_assets' );
 
 /**
+ * Inline favicon so browsers do not ask for /favicon.ico. Skipped when the site has its own site icon.
+ */
+function alderbend_favicon() {
+	if ( has_site_icon() ) {
+		return;
+	}
+	$svg = "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='#2f5039'/><path d='M8 25C8 13 14 7 25 7c0 11-6 18-17 18Z' fill='#f7f3ea'/><path d='M8 25 18 14' stroke='#2f5039' stroke-width='2' stroke-linecap='round'/></svg>";
+	printf( '<link rel="icon" href="data:image/svg+xml,%s">' . "\n", rawurlencode( $svg ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- rawurlencode() output is safe in an attribute.
+}
+add_action( 'wp_head', 'alderbend_favicon', 2 );
+
+/**
  * Block styles that show up in the editor's Styles panel.
  */
 function alderbend_register_block_styles() {
