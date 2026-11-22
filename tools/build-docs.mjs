@@ -191,8 +191,8 @@ const page = `<!DOCTYPE html>
   <div class="checks">
     <div class="check"><b>0 errors</b><span>PHP lint on every PHP file, and PHPCS with the WordPress-Extra and WordPress-Docs rules</span></div>
     <div class="check"><b>${pass} / ${pass + failed}</b><span>checks: theme.json, templates, patterns, blocks, validation, ${passWP} inside WordPress and ${passHTTP} over HTTP</span></div>
-    <div class="check"><b>${editor.total} blocks, ${editor.invalid.length} invalid</b><span>every pattern opened in the real block editor and checked for block validation errors</span></div>
-    <div class="check"><b>0 horizontal scroll</b><span>at 1440 and 390 px on all 7 page types, no console errors, no outside requests</span></div>
+    <div class="check"><b>${editor.total} blocks, ${editor.invalid.length} invalid</b><span>15 of 16 patterns opened in the real block editor and checked for block validation errors</span></div>
+    <div class="check"><b>0 horizontal scroll</b><span>at 1440 and 390 px on all 7 page types, no console errors (apart from the 404 page's 404 status), no outside requests</span></div>
     <div class="check"><b>0 broken links</b><span>crawl of the static export: ${R('docs/evidence/links.txt').trim()}</span></div>
     <div class="check"><b>11 / 11</b><span>click-through checks on the export: phone menu, town checker, demo form</span></div>
   </div>
@@ -223,9 +223,9 @@ WP="wp --path=/path/to/wordpress" bash alderbend-wordpress-theme/demo/seed.sh</p
     <div><h3>Tested</h3><ul>
       <li>Runs on ${esc(wpver)} (SQLite database, PHP built-in server), activated as a normal theme.</li>
       <li>PHP lint and PHPCS (WordPress-Extra, WordPress-Docs) clean; the Theme Check plugin's only required item is explained at right.</li>
-      <li>All 15 pattern files plus the two blocks open in the block editor without validation errors.</li>
+      <li>15 of the 16 patterns (all but the one-button 404 pattern) and both blocks open in the block editor without validation errors.</li>
       <li>The quote form: bad nonce refused, bad input redirected with messages, honeypot, rate limit and the email contents, tested against a stand-in for <code>wp_mail()</code>.</li>
-      <li>Headless Chrome at 1440 and 390 px: no horizontal scroll, no console errors, no outside requests; phone menu and town checker clicked through.</li>
+      <li>Headless Chrome at 1440 and 390 px: no horizontal scroll, no console errors (the 404 page's own 404 status aside), no outside requests; phone menu and town checker clicked through.</li>
     </ul></div>
     <div><h3>Not tested, or not claimed</h3><ul>
       <li>MySQL or MariaDB, Apache or nginx, other PHP versions (the header says 7.4+ but I only ran 8.5), multisite, caching or SEO plugins.</li>

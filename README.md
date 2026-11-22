@@ -42,7 +42,7 @@ The quote form emails the address under Settings, General.
 
 ```
 tools/run-tests.sh      # PHP lint, PHPCS, 54 checks inside WordPress, 66 HTTP checks
-node tools/editor-check.mjs <post-id>     # opens every pattern in the block editor, reports invalid blocks
+node tools/editor-check.mjs <post-id>     # opens the patterns in the block editor, reports invalid blocks
 node tools/check-links.mjs <origin> <path>  # crawls the static export
 node tools/interaction-check.mjs <url>    # phone menu, town checker, demo form
 ```
@@ -51,7 +51,7 @@ Needs PHP 8, WP-CLI, PHPCS with the WordPress standards, Node 22 and Chrome. The
 
 ## What was tested and what wasn't
 
-Tested on WordPress 7.1.5 with PHP 8.5.8 and SQLite, using PHP's built-in server and headless Chrome (1440 and 390 px wide): PHP lint and PHPCS (WordPress-Extra, WordPress-Docs) with no errors; 120 automated checks; all patterns and both blocks open in the block editor with no validation errors; no horizontal scroll, console errors or outside requests; the static export crawled with no broken links.
+Tested on WordPress 7.1.5 with PHP 8.5.8 and SQLite, using PHP's built-in server and headless Chrome (1440 and 390 px wide): PHP lint and PHPCS (WordPress-Extra, WordPress-Docs) with no errors; 120 automated checks; 15 of the 16 patterns (all but the one-button 404 pattern) and both blocks open in the block editor with no validation errors; no horizontal scroll, console errors or outside requests; the static export crawled with no broken links.
 
 Not tested: MySQL or MariaDB, Apache or nginx, other PHP versions (the header says 7.4+ but only 8.5 was run), multisite, caching or SEO plugins, Firefox or Safari, real devices, screen readers or an accessibility audit tool, and real email delivery (`wp_mail()` was replaced by a stand-in). The WordPress.org Theme Check plugin has one required item: it flags `register_block_type()` because blocks are plugin territory in the theme directory. The two blocks stay in the theme because they belong to this one site's design; to list the theme on wordpress.org they would move into a plugin.
 
