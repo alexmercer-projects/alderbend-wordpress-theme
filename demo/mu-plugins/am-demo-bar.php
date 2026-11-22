@@ -22,7 +22,7 @@ add_action(
 	'wp_body_open',
 	function () {
 		?>
-	<div class="am-demo-bar" role="note" style="font:14px/1.45 system-ui,-apple-system,'Segoe UI',sans-serif;background:#0f0f0f;color:#f3f3ef;padding:10px 16px;display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:space-between;align-items:center;position:relative;z-index:50"><span><b>Concept demo by Alex Mercer.</b> Alderbend Landscape Co. is made up. Static copy of a real WordPress theme running locally, example content, not client work. Forms do not send.</span><a href="https://alexmercerprojects.com/alderbend-wordpress-theme/" style="color:#f3f3ef;text-decoration:underline;text-underline-offset:3px">Back to the write-up</a></div>
+	<div class="am-demo-bar" role="note" style="font:14px/1.45 system-ui,-apple-system,'Segoe UI',sans-serif;background:#0f0f0f;color:#f3f3ef;padding:10px 16px;display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:space-between;align-items:center;position:relative;z-index:50"><span><b>Concept demo by Alex Mercer.</b> Alderbend Landscape Co. is made up. Static copy of a real WordPress theme running locally, example content, not client work. Forms do not send.</span><a href="https://alexmercerprojects.com/alderbend-wordpress-theme/" target="_top" style="color:#f3f3ef;text-decoration:underline;text-underline-offset:3px">Back to the write-up</a></div>
 		<?php
 	}
 );
