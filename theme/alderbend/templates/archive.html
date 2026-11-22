@@ -1,0 +1,47 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0"}}},"layout":{"type":"default"}} -->
+<main class="wp-block-group" style="margin-top:0"><!-- wp:group {"tagName":"section","align":"full","backgroundColor":"surface","className":"ab-pagehead","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull ab-pagehead has-surface-background-color has-background"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:paragraph {"className":"is-style-alderbend-kicker"} -->
+<p class="is-style-alderbend-kicker">Sample projects</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:query-title {"type":"archive","level":1} /-->
+
+<!-- wp:term-description /--></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","className":"ab-section","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull ab-section"><!-- wp:query {"queryId":2,"query":{"perPage":9,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-query alignwide"><!-- wp:post-template {"className":"ab-project-grid","layout":{"type":"grid","columnCount":3}} -->
+<!-- wp:group {"className":"ab-project","layout":{"type":"default"}} -->
+<div class="wp-block-group ab-project"><!-- wp:post-featured-image {"isLink":true,"aspectRatio":"4/3","sizeSlug":"alderbend-card"} /-->
+
+<!-- wp:post-title {"level":3,"isLink":true,"fontSize":"large"} /-->
+
+<!-- wp:post-excerpt {"excerptLength":24,"textColor":"muted"} /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination -->
+
+<!-- wp:query-no-results -->
+<!-- wp:paragraph -->
+<p>Nothing here yet.</p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->
+
+<!-- wp:pattern {"slug":"alderbend/cta"} /--></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
