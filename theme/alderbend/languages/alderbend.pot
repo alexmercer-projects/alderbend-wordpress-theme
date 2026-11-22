@@ -1,0 +1,1075 @@
+# Copyright (C) 2026 Alex Mercer
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Alderbend 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/alderbend\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-22T01:08:21+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: alderbend\n"
+
+#. Theme Name of the theme
+#: style.css
+#: functions.php:112
+msgid "Alderbend"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://alexmercerprojects.com/alderbend-wordpress-theme/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "A from-scratch block theme for a small landscaping business. Concept demo for a made-up company (Alderbend Landscape Co.); not client work. Full site editing, theme.json design tokens, block patterns, two small dynamic blocks and no page builder."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Alex Mercer"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://alexmercerprojects.com/"
+msgstr ""
+
+#: blocks/quote-form/render.php:18
+msgid "Send my request"
+msgstr ""
+
+#: blocks/quote-form/render.php:36
+msgid "Thanks, your request is in. We reply within one working day."
+msgstr ""
+
+#: blocks/quote-form/render.php:38
+msgid "Something needs a second look. Please check the highlighted fields."
+msgstr ""
+
+#: blocks/quote-form/render.php:40
+msgid "That was a quick second request. Please wait a minute and try again."
+msgstr ""
+
+#: blocks/quote-form/render.php:47
+msgid "Leave this field empty"
+msgstr ""
+
+#: blocks/quote-form/render.php:52
+msgid "Your name"
+msgstr ""
+
+#: blocks/quote-form/render.php:60
+msgid "Email"
+msgstr ""
+
+#: blocks/quote-form/render.php:70
+msgid "Phone (optional)"
+msgstr ""
+
+#: blocks/quote-form/render.php:78
+#: blocks/service-area/editor.js:29
+msgid "Town"
+msgstr ""
+
+#: blocks/quote-form/render.php:87
+msgid "What do you need?"
+msgstr ""
+
+#: blocks/quote-form/render.php:95
+msgid "Tell us about the space"
+msgstr ""
+
+#. translators: 1: town name, 2: weekday.
+#: blocks/service-area/render.php:27
+#, php-format
+msgid "Yes, we are in %1$s. Our crew is there on %2$ss."
+msgstr ""
+
+#. translators: %s: town name.
+#: blocks/service-area/render.php:29
+#, php-format
+msgid "Yes, we work in %s."
+msgstr ""
+
+#: blocks/service-area/render.php:30
+msgid "That town is not on our route yet. Send a quote request anyway and we will tell you honestly."
+msgstr ""
+
+#: blocks/service-area/render.php:34
+msgid "Check your town"
+msgstr ""
+
+#: blocks/service-area/render.php:35
+msgid "Start typing a town"
+msgstr ""
+
+#: functions.php:65
+msgid "Card"
+msgstr ""
+
+#: functions.php:72
+msgid "Soft panel"
+msgstr ""
+
+#: functions.php:79
+msgid "Arch"
+msgstr ""
+
+#: functions.php:86
+msgid "Checklist"
+msgstr ""
+
+#: functions.php:93
+msgid "Kicker"
+msgstr ""
+
+#: functions.php:100
+msgid "Ghost"
+msgstr ""
+
+#: inc/quote-request.php:32
+msgid "Please tell us your name."
+msgstr ""
+
+#: inc/quote-request.php:34
+msgid "That name is a bit long. 80 characters at most."
+msgstr ""
+
+#: inc/quote-request.php:38
+msgid "That email address does not look right."
+msgstr ""
+
+#: inc/quote-request.php:42
+msgid "Use digits, spaces and dashes only, 7 to 20 characters."
+msgstr ""
+
+#: inc/quote-request.php:46
+msgid "Which town is the job in?"
+msgstr ""
+
+#: inc/quote-request.php:48
+msgid "That town name is too long."
+msgstr ""
+
+#: inc/quote-request.php:52
+msgid "A sentence or two about the space helps us a lot (10 characters at least)."
+msgstr ""
+
+#: inc/quote-request.php:54
+msgid "Please keep it under 3,000 characters."
+msgstr ""
+
+#. translators: 1: service, 2: town.
+#: inc/quote-request.php:71
+#, php-format
+msgid "Quote request: %1$s in %2$s"
+msgstr ""
+
+#: inc/quote-request.php:84
+msgid "This form has expired. Please go back, reload the page and try again."
+msgstr ""
+
+#. translators: 1: name, 2: email, 3: phone, 4: town, 5: service, 6: message.
+#: inc/quote-request.php:123
+#, php-format
+msgid ""
+"Name: %1$s\n"
+"Email: %2$s\n"
+"Phone: %3$s\n"
+"Town: %4$s\n"
+"Service: %5$s\n"
+"\n"
+"%6$s"
+msgstr ""
+
+#: patterns/about.php
+msgctxt "Pattern title"
+msgid "About"
+msgstr ""
+
+#: patterns/about.php
+msgctxt "Pattern description"
+msgid "Short company story, values and a made-up crew note."
+msgstr ""
+
+#: patterns/about.php:21
+msgid "A small crew that likes finishing things."
+msgstr ""
+
+#: patterns/about.php:25
+msgid "Alderbend is a made-up landscaping company, invented to show what a WordPress theme can do for a small trade business. In the story, it is five people who design, build and look after yards in six towns."
+msgstr ""
+
+#: patterns/about.php:29
+msgid "The way they work is the point of the site: one crew, a written quote, a fixed route day, and honest answers when a job is not worth doing."
+msgstr ""
+
+#: patterns/about.php:34
+msgid "We build what we drew, or tell you why we changed it."
+msgstr ""
+
+#: patterns/about.php:38
+msgid "Quotes list materials and labour separately."
+msgstr ""
+
+#: patterns/about.php:42
+msgid "We clean up every day, not just at the end."
+msgstr ""
+
+#: patterns/about.php:49
+msgid "Illustration of a curved stone retaining wall with shrubs."
+msgstr ""
+
+#: patterns/contact.php
+msgctxt "Pattern title"
+msgid "Contact"
+msgstr ""
+
+#: patterns/contact.php
+msgctxt "Pattern description"
+msgid "Quote form beside contact details."
+msgstr ""
+
+#: patterns/contact.php:26
+msgid "Prefer to call?"
+msgstr ""
+
+#: patterns/contact.php:34
+msgid "Mon to Sat, 7 am to 5 pm. Leave a message after hours and we call back the next working day."
+msgstr ""
+
+#: patterns/contact.php:38
+msgid "What happens next"
+msgstr ""
+
+#: patterns/contact.php:43
+msgid "We reply within one working day."
+msgstr ""
+
+#: patterns/contact.php:47
+msgid "We book a free site walk."
+msgstr ""
+
+#: patterns/contact.php:51
+msgid "You get a written quote in three days."
+msgstr ""
+
+#: patterns/cta.php
+msgctxt "Pattern title"
+msgid "Call to action"
+msgstr ""
+
+#: patterns/cta.php
+msgctxt "Pattern description"
+msgid "A dark green band with a headline and one button."
+msgstr ""
+
+#: patterns/cta.php:19
+msgid "Not sure what your yard needs?"
+msgstr ""
+
+#: patterns/cta.php:23
+msgid "Book a free site walk. We will tell you what is worth doing and what can wait."
+msgstr ""
+
+#: patterns/cta.php:28
+msgid "Request a quote"
+msgstr ""
+
+#: patterns/facts-strip.php
+msgctxt "Pattern title"
+msgid "Facts strip"
+msgstr ""
+
+#: patterns/facts-strip.php
+msgctxt "Pattern description"
+msgid "Four short facts about how the company works."
+msgstr ""
+
+#: patterns/facts-strip.php:21
+msgid "Free"
+msgstr ""
+
+#: patterns/facts-strip.php:25
+msgid "site walk, no pressure"
+msgstr ""
+
+#: patterns/facts-strip.php:31
+msgid "3 days"
+msgstr ""
+
+#: patterns/facts-strip.php:35
+msgid "to a written, itemised quote"
+msgstr ""
+
+#: patterns/facts-strip.php:41
+msgid "6 towns"
+msgstr ""
+
+#: patterns/facts-strip.php:45
+msgid "one fixed route day each"
+msgstr ""
+
+#: patterns/facts-strip.php:51
+msgid "Mon to Sat"
+msgstr ""
+
+#: patterns/facts-strip.php:55
+msgid "7 am to 5 pm, same crew"
+msgstr ""
+
+#: patterns/faq.php
+msgctxt "Pattern title"
+msgid "FAQ"
+msgstr ""
+
+#: patterns/faq.php
+msgctxt "Pattern description"
+msgid "Five collapsible questions."
+msgstr ""
+
+#: patterns/faq.php:19
+msgid "Questions we hear a lot"
+msgstr ""
+
+#: patterns/faq.php:23
+msgid "Do you charge for the site walk?"
+msgstr ""
+
+#: patterns/faq.php:24
+msgid "No. The walk and the written quote are free, and there is no obligation to book."
+msgstr ""
+
+#: patterns/faq.php:29
+msgid "How is the work priced?"
+msgstr ""
+
+#: patterns/faq.php:30
+msgid "By the job, itemised: materials, labour, delivery and disposal on separate lines. If we find something unexpected, we stop and talk to you before spending your money."
+msgstr ""
+
+#: patterns/faq.php:35
+msgid "Can you work around a tight budget?"
+msgstr ""
+
+#: patterns/faq.php:36
+msgid "Yes. Most plans can be built in phases, so the patio comes this year and the planting next."
+msgstr ""
+
+#: patterns/faq.php:41
+msgid "What about permits?"
+msgstr ""
+
+#: patterns/faq.php:42
+msgid "Walls over four feet and some drainage changes need one. We tell you at the quote stage whether your job does and who files it."
+msgstr ""
+
+#: patterns/faq.php:47
+msgid "Is this a real company?"
+msgstr ""
+
+#: patterns/faq.php:48
+msgid "No. Alderbend Landscape Co. is a made-up business used to show a WordPress theme. The towns, prices, phone number and projects are examples."
+msgstr ""
+
+#: patterns/featured-projects.php
+msgctxt "Pattern title"
+msgid "Featured projects"
+msgstr ""
+
+#: patterns/featured-projects.php
+msgctxt "Pattern description"
+msgid "Latest three posts as project cards."
+msgstr ""
+
+#: patterns/featured-projects.php:22
+msgid "Recent projects"
+msgstr ""
+
+#: patterns/featured-projects.php:26
+msgid "Sample projects (illustrated, made up)."
+msgstr ""
+
+#: patterns/featured-projects.php:31
+msgid "All projects"
+msgstr ""
+
+#: patterns/footer-inner.php
+msgctxt "Pattern title"
+msgid "Footer"
+msgstr ""
+
+#: patterns/footer-inner.php
+msgctxt "Pattern description"
+msgid "Contact details, links and the demo disclaimer."
+msgstr ""
+
+#: patterns/footer-inner.php:24
+msgid "Landscape design and building for homes in Millbrook Ridge, Harrow Landing, Ketterby, Pinecrest Falls, Oriel Heights and Sandy Ford."
+msgstr ""
+
+#: patterns/footer-inner.php:30
+msgid "Get in touch"
+msgstr ""
+
+#: patterns/footer-inner.php:34
+msgid "Mon to Sat, 7 am to 5 pm"
+msgstr ""
+
+#: patterns/footer-inner.php:40
+msgid "The site"
+msgstr ""
+
+#: patterns/footer-inner.php:44
+msgid "Services"
+msgstr ""
+
+#: patterns/footer-inner.php:44
+msgid "Projects"
+msgstr ""
+
+#: patterns/footer-inner.php:44
+msgid "About"
+msgstr ""
+
+#: patterns/footer-inner.php:44
+msgid "Contact"
+msgstr ""
+
+#: patterns/footer-inner.php:54
+msgid "Alderbend Landscape Co. is a made-up business. This is a concept demo of a WordPress theme, not a real company or client work."
+msgstr ""
+
+#: patterns/header-inner.php
+msgctxt "Pattern title"
+msgid "Header"
+msgstr ""
+
+#: patterns/header-inner.php
+msgctxt "Pattern description"
+msgid "Brand, navigation and quote button."
+msgstr ""
+
+#: patterns/header-inner.php:23
+msgctxt "menu item"
+msgid "Services"
+msgstr ""
+
+#: patterns/header-inner.php:24
+msgctxt "menu item"
+msgid "Projects"
+msgstr ""
+
+#: patterns/header-inner.php:25
+msgctxt "menu item"
+msgid "About"
+msgstr ""
+
+#: patterns/header-inner.php:26
+msgctxt "menu item"
+msgid "Contact"
+msgstr ""
+
+#: patterns/header-inner.php:31
+msgid "Get a quote"
+msgstr ""
+
+#: patterns/hero.php
+msgctxt "Pattern title"
+msgid "Hero"
+msgstr ""
+
+#: patterns/hero.php
+msgctxt "Pattern description"
+msgid "Headline, short intro, two buttons and a garden illustration."
+msgstr ""
+
+#: patterns/hero.php:21
+msgid "Landscape design and building in Millbrook Ridge"
+msgstr ""
+
+#: patterns/hero.php:25
+msgid "Yards that look settled in from the first spring."
+msgstr ""
+
+#: patterns/hero.php:29
+msgid "Alderbend designs and builds patios, paths, walls and planting for homes in six towns. One crew from first sketch to last mulch, and a written quote before anything starts."
+msgstr ""
+
+#: patterns/hero.php:34
+msgid "Ask for a free site walk"
+msgstr ""
+
+#: patterns/hero.php:38
+msgid "See recent projects"
+msgstr ""
+
+#: patterns/hero.php:45
+msgid "Illustration of a garden with a stone path, young trees and flower beds."
+msgstr ""
+
+#: patterns/home-button.php
+msgctxt "Pattern title"
+msgid "Back to home button"
+msgstr ""
+
+#: patterns/home-button.php
+msgctxt "Pattern description"
+msgid "One button that links to the home page."
+msgstr ""
+
+#: patterns/home-button.php:18
+msgid "Back to the home page"
+msgstr ""
+
+#: patterns/page-heading.php
+msgctxt "Pattern title"
+msgid "Page heading"
+msgstr ""
+
+#: patterns/page-heading.php
+msgctxt "Pattern description"
+msgid "Kicker, page title and intro for inner pages."
+msgstr ""
+
+#: patterns/page-heading.php:20
+msgid "Alderbend Landscape Co."
+msgstr ""
+
+#: patterns/process.php
+msgctxt "Pattern title"
+msgid "How it works"
+msgstr ""
+
+#: patterns/process.php
+msgctxt "Pattern description"
+msgid "Four numbered steps from first call to last mulch."
+msgstr ""
+
+#: patterns/process.php:20
+msgid "How it works"
+msgstr ""
+
+#: patterns/process.php:24
+msgid "No surprises between the first call and the last wheelbarrow."
+msgstr ""
+
+#: patterns/process.php:29
+msgid "Site walk."
+msgstr ""
+
+#: patterns/process.php:29
+msgid "We come to the yard, measure, check drainage and light, and listen. Free."
+msgstr ""
+
+#: patterns/process.php:33
+msgid "Plan and quote."
+msgstr ""
+
+#: patterns/process.php:33
+msgid "A scaled sketch and an itemised written quote within three working days."
+msgstr ""
+
+#: patterns/process.php:37
+msgid "Build."
+msgstr ""
+
+#: patterns/process.php:37
+msgid "Our own crew does the work, with a short note at the end of each day."
+msgstr ""
+
+#: patterns/process.php:41
+msgid "Walk-through."
+msgstr ""
+
+#: patterns/process.php:41
+msgid "We go over care instructions together and leave a one-page watering and pruning guide."
+msgstr ""
+
+#: patterns/seasons.php
+msgctxt "Pattern title"
+msgid "Seasonal calendar"
+msgstr ""
+
+#: patterns/seasons.php
+msgctxt "Pattern description"
+msgid "Four seasonal panels with checklists."
+msgstr ""
+
+#: patterns/seasons.php:20
+#: patterns/services-detail.php:207
+#: patterns/services-grid.php:106
+msgid "Seasonal upkeep"
+msgstr ""
+
+#: patterns/seasons.php:24
+msgid "What a year of care looks like."
+msgstr ""
+
+#: patterns/seasons.php:32
+msgid "Spring"
+msgstr ""
+
+#: patterns/seasons.php:37
+msgid "Cleanup and bed edging"
+msgstr ""
+
+#: patterns/seasons.php:41
+msgid "Divide and replant perennials"
+msgstr ""
+
+#: patterns/seasons.php:45
+msgid "Check walls and paths after frost"
+msgstr ""
+
+#: patterns/seasons.php:52
+msgid "Summer"
+msgstr ""
+
+#: patterns/seasons.php:57
+msgid "Deep-water new plantings"
+msgstr ""
+
+#: patterns/seasons.php:61
+msgid "Prune after bloom"
+msgstr ""
+
+#: patterns/seasons.php:65
+msgid "Keep mulch two inches deep"
+msgstr ""
+
+#: patterns/seasons.php:72
+msgid "Fall"
+msgstr ""
+
+#: patterns/seasons.php:77
+msgid "Leaf and debris clear-out"
+msgstr ""
+
+#: patterns/seasons.php:81
+msgid "Plant bulbs and shrubs"
+msgstr ""
+
+#: patterns/seasons.php:85
+msgid "Add a fresh mulch layer"
+msgstr ""
+
+#: patterns/seasons.php:92
+msgid "Winter"
+msgstr ""
+
+#: patterns/seasons.php:97
+msgid "Protect young shrubs"
+msgstr ""
+
+#: patterns/seasons.php:101
+msgid "Keep salt off stone and beds"
+msgstr ""
+
+#: patterns/seasons.php:105
+msgid "Plan next season's projects"
+msgstr ""
+
+#: patterns/service-area.php
+msgctxt "Pattern title"
+msgid "Service area"
+msgstr ""
+
+#: patterns/service-area.php
+msgctxt "Pattern description"
+msgid "Service area checker block with a short heading."
+msgstr ""
+
+#: patterns/service-area.php:21
+msgid "Where we work"
+msgstr ""
+
+#: patterns/service-area.php:25
+msgid "Six towns, one route day each."
+msgstr ""
+
+#: patterns/service-area.php:29
+msgid "Keeping to a fixed day per town means the crew is never an hour from your yard when something needs a look. Type your town to see ours."
+msgstr ""
+
+#: patterns/services-detail.php
+msgctxt "Pattern title"
+msgid "Services in detail"
+msgstr ""
+
+#: patterns/services-detail.php
+msgctxt "Pattern description"
+msgid "Six service rows with checklists, for the Services page."
+msgstr ""
+
+#: patterns/services-detail.php:27
+#: patterns/services-grid.php:36
+msgid "Garden design"
+msgstr ""
+
+#: patterns/services-detail.php:33
+msgid "Every job starts with a scaled plan so you can see the whole yard before we touch it."
+msgstr ""
+
+#: patterns/services-detail.php:38
+msgid "Scaled plan and planting list"
+msgstr ""
+
+#: patterns/services-detail.php:42
+msgid "Two rounds of changes included"
+msgstr ""
+
+#: patterns/services-detail.php:46
+msgid "Plan reviewed on site before work starts"
+msgstr ""
+
+#: patterns/services-detail.php:63
+#: patterns/services-grid.php:50
+msgid "Patios and paths"
+msgstr ""
+
+#: patterns/services-detail.php:69
+msgid "Stone and pavers on a compacted gravel base, pitched so water leaves the house side."
+msgstr ""
+
+#: patterns/services-detail.php:74
+msgid "Flagstone, pavers or gravel"
+msgstr ""
+
+#: patterns/services-detail.php:78
+msgid "Edging that keeps its line"
+msgstr ""
+
+#: patterns/services-detail.php:82
+msgid "Steps and landings built to code"
+msgstr ""
+
+#: patterns/services-detail.php:99
+#: patterns/services-grid.php:64
+msgid "Retaining walls"
+msgstr ""
+
+#: patterns/services-detail.php:105
+msgid "Walls that hold soil and let water through. We build dry-stack and block walls up to four feet."
+msgstr ""
+
+#: patterns/services-detail.php:110
+msgid "Drainage stone and pipe behind every wall"
+msgstr ""
+
+#: patterns/services-detail.php:114
+msgid "Geogrid on taller walls"
+msgstr ""
+
+#: patterns/services-detail.php:118
+msgid "We flag permit needs at the quote stage"
+msgstr ""
+
+#: patterns/services-detail.php:135
+#: patterns/services-grid.php:78
+msgid "Planting and beds"
+msgstr ""
+
+#: patterns/services-detail.php:141
+msgid "Plants chosen for your light, soil and the time you want to spend. No fussy beds unless you ask."
+msgstr ""
+
+#: patterns/services-detail.php:146
+msgid "Soil test and amendment"
+msgstr ""
+
+#: patterns/services-detail.php:150
+msgid "Mulch and edging"
+msgstr ""
+
+#: patterns/services-detail.php:154
+msgid "Plant list with care notes"
+msgstr ""
+
+#: patterns/services-detail.php:171
+#: patterns/services-grid.php:92
+msgid "Drainage and rain gardens"
+msgstr ""
+
+#: patterns/services-detail.php:177
+msgid "Wet spots get a destination: a swale, a dry well or a rain garden that is pretty when it is wet."
+msgstr ""
+
+#: patterns/services-detail.php:182
+msgid "Grading and swales"
+msgstr ""
+
+#: patterns/services-detail.php:186
+msgid "Dry wells and downspout routing"
+msgstr ""
+
+#: patterns/services-detail.php:190
+msgid "Rain gardens with native plants"
+msgstr ""
+
+#: patterns/services-detail.php:213
+msgid "A simple plan for the four times a year a yard really needs a person."
+msgstr ""
+
+#: patterns/services-detail.php:218
+msgid "Spring cleanup and fall mulch"
+msgstr ""
+
+#: patterns/services-detail.php:222
+msgid "Summer pruning visits"
+msgstr ""
+
+#: patterns/services-detail.php:226
+msgid "Pause or cancel any time"
+msgstr ""
+
+#: patterns/services-grid.php
+msgctxt "Pattern title"
+msgid "Services grid"
+msgstr ""
+
+#: patterns/services-grid.php
+msgctxt "Pattern description"
+msgid "Six service cards with icons."
+msgstr ""
+
+#: patterns/services-grid.php:20
+msgid "What we do"
+msgstr ""
+
+#: patterns/services-grid.php:24
+msgid "Six kinds of work, done by the same small crew."
+msgstr ""
+
+#: patterns/services-grid.php:40
+msgid "A scaled plan, a planting list and a walk-through of the plan on site before we dig."
+msgstr ""
+
+#: patterns/services-grid.php:54
+msgid "Flagstone, pavers and gravel on a compacted base, laid to drain away from the house."
+msgstr ""
+
+#: patterns/services-grid.php:68
+msgid "Dry-stacked and block walls up to four feet, with drainage stone behind them."
+msgstr ""
+
+#: patterns/services-grid.php:82
+msgid "Beds that fit the light and soil you actually have, mulched and labelled."
+msgstr ""
+
+#: patterns/services-grid.php:96
+msgid "Swales, dry wells and rain gardens that give wet corners somewhere to go."
+msgstr ""
+
+#: patterns/services-grid.php:110
+msgid "Spring cleanup, summer pruning and fall mulch on a plan you can pause."
+msgstr ""
+
+#: blocks/quote-form/editor.js:19
+msgid "Form settings"
+msgstr ""
+
+#: blocks/quote-form/editor.js:21
+msgid "Button label"
+msgstr ""
+
+#: blocks/quote-form/editor.js:28
+msgid "Services (one per line)"
+msgstr ""
+
+#: blocks/service-area/editor.js:36
+msgid "Route day"
+msgstr ""
+
+#: blocks/service-area/editor.js:38
+msgid "Not set"
+msgstr ""
+
+#: blocks/service-area/editor.js:47
+msgid "Remove"
+msgstr ""
+
+#: blocks/service-area/editor.js:59
+msgid "Towns"
+msgstr ""
+
+#: blocks/service-area/editor.js:64
+msgid "Add a town"
+msgstr ""
+
+#: blocks/quote-form/block.json
+msgctxt "block title"
+msgid "Quote request form"
+msgstr ""
+
+#: blocks/quote-form/block.json
+msgctxt "block description"
+msgid "A plain request-a-quote form that posts to WordPress, checks a nonce, validates every field and emails the site owner."
+msgstr ""
+
+#: blocks/service-area/block.json
+msgctxt "block title"
+msgid "Service area checker"
+msgstr ""
+
+#: blocks/service-area/block.json
+msgctxt "block description"
+msgid "Lists the towns you serve with their route day, and lets a visitor type their town to check."
+msgstr ""
+
+#: theme.json
+#: styles/clay.json
+msgctxt "Color name"
+msgid "Cream"
+msgstr ""
+
+#: theme.json
+#: styles/clay.json
+msgctxt "Color name"
+msgid "Sand"
+msgstr ""
+
+#: theme.json
+#: styles/clay.json
+msgctxt "Color name"
+msgid "Sage"
+msgstr ""
+
+#: theme.json
+#: styles/clay.json
+msgctxt "Color name"
+msgid "Ink"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Moss ink"
+msgstr ""
+
+#: theme.json
+#: styles/clay.json
+msgctxt "Color name"
+msgid "Fern"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Deep fern"
+msgstr ""
+
+#: theme.json
+#: styles/clay.json
+msgctxt "Color name"
+msgid "Clay"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Fern to ink"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Fraunces"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Figtree"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "1"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "4"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "5"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "6"
+msgstr ""
+
+#: theme.json
+msgctxt "Shadow name"
+msgid "Soft"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Wide page, no title"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: styles/clay.json
+msgctxt "Style variation name"
+msgid "Clay and sage"
+msgstr ""
+
+#: styles/clay.json
+msgctxt "Color name"
+msgid "Bark"
+msgstr ""
+
+#: styles/clay.json
+msgctxt "Color name"
+msgid "Deep clay"
+msgstr ""

@@ -1,0 +1,5 @@
+Theme Check plugin: required items found
+
+- REQUIRED: The theme uses the register_block_type() function in the file inc/blocks.php. register_block_type() is plugin-territory functionality and must not be used in themes. Use a plugin instead. Line 16: register_block_type( get_theme_file_path( 'blocks/service-area' ) );Line 17: register_block_type( get_theme_file_path( 'blocks/quote-form' ) );
+- INFO: Possible Favicon found in functions.php. Favicons are handled by the Site Icon setting in the customizer since version 4.3.
+- INFO: Only one text-domain is being used in this theme. Make sure it matches the theme's slug correctly so that the theme will be compatible with WordPress.org language packs. The domain found is alderbend.

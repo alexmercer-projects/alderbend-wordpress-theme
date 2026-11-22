@@ -1,0 +1,14 @@
+  ok   phone shows the menu button
+  ok   menu button opens the overlay
+  ok   overlay lists Services, Projects, About, Contact
+  ok   close button closes it
+  ok   desktop shows the links, not the menu button
+  ok   town checker: Ketterby is served on Wednesdays
+  ok   town checker highlights the matching row
+  ok   town checker: unknown town gets an honest no
+  ok   town checker: stays quiet under 3 characters
+  ok   demo form explains that nothing is sent
+  ok   demo form does not navigate away
+no console errors
+
+11 passed, 0 failed

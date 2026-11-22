@@ -1,0 +1,145 @@
+== PHP lint ==
+lint done
+== PHPCS (WordPress-Extra, WordPress-Docs) ==
+...................... 22 / 22 (100%)
+
+
+Time: 4.14 secs; Memory: 16MB
+== Tests inside WordPress ==
+Theme
+  ok   theme is installed
+  ok   WordPress sees it as a block theme
+  ok   theme is active
+  ok   version header read
+theme.json
+  ok   palette has primary and accent
+  ok   two font families (Fraunces, Figtree)
+  ok   wide size is 74rem
+  ok   global stylesheet emits palette variables
+  ok   font files are declared in theme.json and exist on disk
+  ok   no Google Fonts request
+  ok   the Clay and sage style variation loads
+Templates and parts
+  ok   template front-page
+  ok   template page
+  ok   template page-wide
+  ok   template index
+  ok   template archive
+  ok   template single
+  ok   template search
+  ok   template 404
+  ok   part header
+  ok   part footer
+Patterns and blocks
+  ok   pattern alderbend/hero registered
+  ok   pattern alderbend/facts-strip registered
+  ok   pattern alderbend/services-grid registered
+  ok   pattern alderbend/featured-projects registered
+  ok   pattern alderbend/process registered
+  ok   pattern alderbend/seasons registered
+  ok   pattern alderbend/service-area registered
+  ok   pattern alderbend/cta registered
+  ok   pattern alderbend/faq registered
+  ok   pattern alderbend/services-detail registered
+  ok   pattern alderbend/about registered
+  ok   pattern alderbend/contact registered
+  ok   pattern alderbend/page-heading registered
+  ok   pattern alderbend/header-inner registered
+  ok   pattern alderbend/footer-inner registered
+  ok   block alderbend/service-area registered
+  ok   block alderbend/quote-form registered
+  ok   group block styles registered
+alderbend_clean_towns()
+  ok   drops empty, non-array and malformed rows
+  ok   trims names
+  ok   strips tags from names
+  ok   rejects a day outside Monday to Saturday
+  ok   non-array input gives an empty list
+alderbend_validate_quote()
+  ok   a complete request passes
+  ok   empty request flags name, email, town and message
+  ok   phone is optional
+  ok   bad email is rejected
+  ok   letters in the phone field are rejected
+  ok   a one-word message is rejected
+  ok   a 3,001 character message is rejected
+  ok   tags are stripped from the name
+  ok   a name over 80 characters is rejected
+alderbend_quote_subject()
+  ok   line breaks are removed from the subject (header injection)
+
+54 passed, 0 failed
+== HTTP tests ==
+Pages
+  ok   / returns 200
+  ok   / has "Yards that look settled"
+  ok   / has exactly one h1
+  ok   / sets the page language
+  ok   / loads nothing from a CDN
+  ok   / has header, main and footer landmarks
+  ok   /: every image has an alt attribute
+  ok   /services/ returns 200
+  ok   /services/ has "Services"
+  ok   /services/ has exactly one h1
+  ok   /services/ sets the page language
+  ok   /services/ loads nothing from a CDN
+  ok   /services/ has header, main and footer landmarks
+  ok   /services/: every image has an alt attribute
+  ok   /projects/ returns 200
+  ok   /projects/ has "Sample projects"
+  ok   /projects/ has exactly one h1
+  ok   /projects/ sets the page language
+  ok   /projects/ loads nothing from a CDN
+  ok   /projects/ has header, main and footer landmarks
+  ok   /projects/: every image has an alt attribute
+  ok   /about/ returns 200
+  ok   /about/ has "About"
+  ok   /about/ has exactly one h1
+  ok   /about/ sets the page language
+  ok   /about/ loads nothing from a CDN
+  ok   /about/ has header, main and footer landmarks
+  ok   /about/: every image has an alt attribute
+  ok   /contact/ returns 200
+  ok   /contact/ has "Contact"
+  ok   /contact/ has exactly one h1
+  ok   /contact/ sets the page language
+  ok   /contact/ loads nothing from a CDN
+  ok   /contact/ has header, main and footer landmarks
+  ok   /contact/: every image has an alt attribute
+  ok   /rain-garden/ returns 200
+  ok   /rain-garden/ has "Rain garden"
+  ok   /rain-garden/ has exactly one h1
+  ok   /rain-garden/ sets the page language
+  ok   /rain-garden/ loads nothing from a CDN
+  ok   /rain-garden/ has header, main and footer landmarks
+  ok   /rain-garden/: every image has an alt attribute
+  ok   unknown URL returns 404
+  ok   404 page uses the theme 404 template
+Assets
+  ok   theme.css is enqueued
+  ok   theme.css is served
+  ok   font-face rules point at the bundled Fraunces file
+  ok   Figtree woff2 is served from the theme
+  ok   service-area view script is loaded where the block is used
+  ok   service-area view script is not loaded on a page without the block
+  ok   skip link is present
+Service area block
+  ok   town list renders
+  ok   datalist renders
+  ok   towns and route days render
+Quote form round trip
+  ok   form carries a nonce
+  ok   bad nonce is refused with 403
+  ok   invalid input redirects back with an error token
+  ok   error page shows the message, marks the field and keeps what was typed
+  ok   honeypot gets a fake success
+  ok   honeypot sends no email
+  ok   valid request redirects with quote=sent
+  ok   one email goes to the site admin address
+  ok   subject names the service and town
+  ok   body carries the request
+  ok   a second request within a minute is held back
+  ok   success notice is announced with role=status
+
+66 passed, 0 failed
+exit: 0

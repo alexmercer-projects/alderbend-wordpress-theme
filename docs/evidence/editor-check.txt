@@ -1,0 +1,4 @@
+{"total":250,"invalid":[],"names":22}
+no validation messages
+other console errors: 1
+  warning: global-styles-css-custom-properties-inline-css was added to the iframe incorrectly. Please use block.json or enqueue_block_assets to add styles to the iframe. style#global-styles-css-custom-properties-inline-css
